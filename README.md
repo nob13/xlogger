@@ -48,8 +48,10 @@ E.g.:
 
 Bugs
 ----
-- Note: xlogger does not detect the end of a log output as the OS may do some buffering
-and one write operation of the first program does not necessary lead to one read operation.
+- Note: xlogger does not always detect the end of a log output as the OS may do some buffering
+and one write operation of the target program does not necessary lead to one read operation.
+  This could be circumvented with support of "\n" separated log output, altough this support would
+  break support for multi-line-comments.
 - I usually don't do plain C. There may be some String issues.
 
 License
