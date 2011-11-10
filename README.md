@@ -23,7 +23,7 @@ Usage
 -----
 Just pipe in your data, e.g.
 
-myprogram | /path/to/xlogger --out /tmp/logfile.log
+    myprogram | /path/to/xlogger --out /tmp/logfile.log
 
 Parameters
 ----------
